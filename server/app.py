@@ -31,7 +31,7 @@ def math(num1, operation, num2):
     elif operation == "%":
         answer = num1 % num2
     else:
-        answer = "Invalid operation"
+        answer = "Invalid math ops"
 
     return f"{answer}"
 
